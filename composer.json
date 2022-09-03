@@ -37,7 +37,7 @@
         }
     ],
     "replace": {
-        "kphoen/rulerz": ">=0.20"
+        "kphoen/rulerz": ">=0.20|dev-master"
     },
     "require": {
         "php": ">=7.2",
