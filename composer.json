@@ -30,6 +30,12 @@
     "config": {
         "bin-dir": "bin/"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/xdimedrolx/Rusty.git"
+        }
+    ],
     "require": {
         "php": "^7.1|^8.0",
         "hiqdev/hoa-compiler": "^1.0",
