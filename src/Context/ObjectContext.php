@@ -54,7 +54,7 @@ class ObjectContext implements \ArrayAccess
     /**
      * {@inheritdoc}
      */
-    public function offsetExists($id)
+    public function offsetExists($id): bool
     {
         return $this->accessor->isReadable($this->object, $id);
     }

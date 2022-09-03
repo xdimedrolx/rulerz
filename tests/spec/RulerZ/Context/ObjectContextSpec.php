@@ -38,8 +38,11 @@ class ObjectContextSpec extends ObjectBehavior
     {
         $object->property = 42;
 
-        $this->offsetExists('property')->shouldReturn(true);
-        $this->offsetExists('non_existent_property')->shouldReturn(false);
+        $this->shouldHaveKey('property');
+        $this->shouldNotHaveKey('non_existent_property');
+
+//        $this->offsetExists('property')->shouldReturn(true);
+//        $this->offsetExists('non_existent_property')->shouldReturn(false);
     }
 
     public function it_forbids_setting_properties()

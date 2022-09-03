@@ -34,25 +34,37 @@
         {
             "type": "vcs",
             "url":  "https://github.com/xdimedrolx/Rusty.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hiqdev/hoa-ruler.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hiqdev/hoa-compiler.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hiqdev/hoa-iterator.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hiqdev/hoa-stream.git"
         }
     ],
     "require": {
-        "php": "^7.1|^8.0",
-        "hiqdev/hoa-compiler": "^1.0",
+        "php": ">=7.2",
+        "hoa/ruler": "~2.0",
         "symfony/property-access": "~3.0|~4.0|~5.0"
     },
     "require-dev": {
         "ext-json": "*",
-
         "mikey179/vfsstream": "~1.4",
-        "coduo/phpspec-data-provider-extension": "~1.0,!=1.0.2",
-        "phpspec/phpspec": "~2.0,>=2.4@dev",
-
+        "phpspec/phpspec": ">=7.0",
         "behat/behat": "~3.0",
-
         "kphoen/rusty": "dev-master",
-
-        "liip/rmt": "^1.2"
+        "liip/rmt": "^1.2",
+        "dborsatto/phpspec-data-provider-extension": "^1.0"
     },
     "suggest": {
         "kphoen/rulerz-spec-builder": "If you want a specification builder",
