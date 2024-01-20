@@ -40,9 +40,9 @@
         "kphoen/rulerz": ">=0.20|dev-master"
     },
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.4",
         "xdimedrolx/hoa-ruler": "^1.0",
-        "symfony/property-access": "~3.0|~4.0|~5.0"
+        "symfony/property-access": "^3.0|^4.0|^5.0|^6.0"
     },
     "require-dev": {
         "ext-json": "*",
